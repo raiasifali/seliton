@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
 
 const ProductInfo = () => {
   return (
@@ -98,6 +100,23 @@ const ProductInfo = () => {
               </select>
               </div>
             </div>
+        </div>
+        <div className="flex flex-col flex-1 border border-1 bg-white py-4 rounded-xl">
+           <h3 className='py-2 px-4'>Variants</h3>
+           <hr className='py-1'/>
+           <div className="flex px-4 items-center gap-2">
+              <span className="text-blue-600">
+                <FontAwesomeIcon icon={faPlus} />
+              </span>
+              <label className="text-blue-600 font-light">This product has a SKU or barcode</label>
+            </div>
+        </div>
+        <div className="flex flex-col flex-1 border border-1 bg-white py-4 rounded-xl">
+          <div className="flex justify-between px-4 pb-1">
+            <h3>Search engine listing</h3>
+            <button className='text-blue-600'>Edit</button>
+          </div>
+          <label className="text-blue-600 font-light px-4 text-[14px]">Add a title and description to see how this product might appear in a search engine listing</label>
         </div>
       </div>
   );
