@@ -1,15 +1,11 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
 type LayoutProps = {
-  children: React.ReactNode
-  title?: string
-}
+  children: React.ReactNode;
+  title?: string;
+};
 
-export default function Layout({
-  children,
-  title = 'Seliton',
-}: LayoutProps) {
-
+export default function Layout({ children, title = 'Seliton' }: LayoutProps) {
   return (
     <div>
       <Head>
@@ -19,5 +15,5 @@ export default function Layout({
       </Head>
       {children}
     </div>
-  )
+  );
 }

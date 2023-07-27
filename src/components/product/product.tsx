@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus, faUpload, faSearch, faFilter } from '@fortawesome/free-solid-svg-icons';
 import ProductCard from './ProductCard'
@@ -25,20 +24,20 @@ const Product = () => {
       </section>
 
       <section className="px-1 sm:px-6 lg:px-6">
-        <div class="flex justify-left">
-          <button class="px-4 py-2 border-b-2 border-transparent text-gray-500 hover:text-blue-500 hover:border-blue-500 focus:outline-none">
+        <div className="flex justify-left">
+          <button className="px-4 py-2 border-b-2 border-transparent text-gray-500 hover:text-blue-500 hover:border-blue-500 focus:outline-none">
             New Product
-            <span class="inline-block w-8 h-8 bg-blue-500 text-white rounded-full text-center ml-2 text-sm leading-8">410</span>
+            <span className="inline-block w-8 h-8 bg-blue-500 text-white rounded-full text-center ml-2 text-sm leading-8">410</span>
           </button>
-          <button class="px-4 py-2 border-b-2 border-transparent text-gray-500 hover:text-blue-500 hover:border-blue-500 focus:outline-none">
+          <button className="px-4 py-2 border-b-2 border-transparent text-gray-500 hover:text-blue-500 hover:border-blue-500 focus:outline-none">
             Recorded Products
-            <span class="inline-block w-8 h-8 bg-lime-500  text-white rounded-2xl text-center ml-2 text-sm leading-8">36</span>
+            <span className="inline-block w-8 h-8 bg-lime-500  text-white rounded-2xl text-center ml-2 text-sm leading-8">36</span>
           </button>
         </div>
       </section>
 
       <section className="px-1 sm:px-6 lg:px-6">
-        <div class="flex justify-left bg-white py-3 rounded-bl rounded-br">
+        <div className="flex justify-left bg-white py-3 rounded-bl rounded-br">
           <div className="ml-4 flex items-center bg-white rounded border bg-gray-100">
             <button className="pl-2 bg-white rounded-full focus:outline-none">
               <FontAwesomeIcon icon={faSearch} />
@@ -57,7 +56,7 @@ const Product = () => {
         </div>
       </section>
       <section className="px-1 sm:px-6 lg:px-6">
-        <div class="flex justify-left py-3">
+        <div className="flex justify-left py-3">
           <label className="block text-gray-700 text-sm font-bold mb-2 ml-4">
             <input type="checkbox" className="mr-2" />
             Select All

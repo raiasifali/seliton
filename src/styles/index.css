@@ -1,5 +1,19 @@
-/* purgecss start ignore */
 @tailwind base;
 @tailwind components;
-/* purgecss end ignore */
 @tailwind utilities;
+
+input::placeholder {
+  font-size: 13px;
+  font-weight: light;
+}
+.ql-editor {
+  height: 200px !important;
+}
+.ql-toolbar {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+.ql-container {
+  border-bottom-left-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+}
