@@ -1,7 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
-import Product from '../product/product'
-import AddProduct from '@/components/shopify/AddProduct'
+import AddProduct from '@/components/shopify/AddProduct';
 const Header = () => {
   return (
     <div>
